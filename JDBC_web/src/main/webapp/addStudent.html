@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New student registration</title>
+</head>
+<body>
+    <h1>New student registration</h1>
+    
+    <form method="post" action="addStudentServlet">
+        <table>
+            <tr>
+                <td>Number:</td>
+                <td><input name="number"/></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input name="firstname"/></td> <!-- Corrected name attribute -->
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input name="lastname"/></td> <!-- Corrected name attribute -->
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Add"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
